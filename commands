@@ -1,0 +1,8 @@
+ping.js
+module.exports = {
+    name: 'ping',
+    decription: "this is a ping command!",
+    execute(message, args){
+        message.channel.send('pong!');
+    }
+}
